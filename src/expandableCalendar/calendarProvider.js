@@ -168,7 +168,7 @@ class CalendarProvider extends Component {
         <View style={[{flex: 1}, this.props.style]}>
           {this.props.children}
         </View>
-        {this.props.showTodayButton && this.renderTodayButton()}
+        {/* {this.props.showTodayButton && this.renderTodayButton()} */}
       </CalendarContext.Provider>
     );
   }
