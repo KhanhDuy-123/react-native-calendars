@@ -14,13 +14,6 @@ export default function styleConstructor(theme = {}) {
       overflow: 'hidden',
       borderBottomLeftRadius: 30,
       borderBottomRightRadius: 30,
-      borderColor: '#ddd',
-      borderBottomWidth: 0.1,
-      shadowColor: '#000',
-      shadowOffset: { width: 0, height: 2 },
-      shadowOpacity: 0.1,
-      shadowRadius: 2,
-      elevation: 0.5,
     },
     container: {
       backgroundColor: appStyle.calendarBackground
