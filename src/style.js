@@ -9,7 +9,7 @@ export const textSecondaryColor = '#7a92a5'; // not in use
 
 export const textDefaultColor = '#2d4150';
 export const textColor = '#43515c';
-export const textLinkColor = '#00BBF2';
+export const textLinkColor = '#41a336';
 
 export const textDayFontFamily = 'System';
 export const textMonthFontFamily = 'System';
@@ -38,7 +38,7 @@ export const todayBackgroundColor = undefined;
 export const todayTextColor = textLinkColor;
 export const dayTextColor = textDefaultColor;
 export const textDisabledColor = '#d9e1e8';
-export const dotColor = textLinkColor;
+export const dotColor = textDefaultColor;
 export const selectedDotColor = foregroundColor;
 export const disabledDotColor = undefined;
 export const todayDotColor = undefined;

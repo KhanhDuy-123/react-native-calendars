@@ -190,22 +190,6 @@ class WeekCalendar extends Component {
 
     return (
       <View style={[allowShadow && this.style.containerShadow, !hideDayNames && {paddingBottom: 6}]}>
-        {!hideDayNames &&
-          <View style={[this.style.week, {marginTop: 12, marginBottom: -2}]}>
-            {/* {this.props.weekNumbers && <Text allowFontScaling={false} style={this.style.dayHeader}></Text>} */}
-            {weekDaysNames.map((day, idx) => (
-              <Text 
-                allowFontScaling={false} 
-                key={idx} 
-                accessible={false} 
-                style={this.style.dayHeader} 
-                numberOfLines={1} 
-                importantForAccessibility='no'
-              >
-                {day}
-              </Text>
-            ))}
-          </View>}
         <FlatList
           ref={this.list}
           data={items}
