@@ -41,7 +41,8 @@ function month(xd) {
 }
 
 function weekDayNames(firstDayOfWeek = 0) {
-  let weekDaysNames = XDate.locales[XDate.defaultLocale].dayNamesShort;
+  // let weekDaysNames = XDate.locales[XDate.defaultLocale].dayNamesShort;
+  let weekDaysNames = ["CN", "T2", "T3", "T4", "T5", "T6", "T7"]
   const dayShift = firstDayOfWeek % 7;
   if (dayShift) {
     weekDaysNames = weekDaysNames.slice(dayShift).concat(weekDaysNames.slice(0, dayShift));

@@ -155,7 +155,7 @@ class CalendarHeader extends Component {
               accessibilityRole='header'
               {...webProps}
             >
-              {this.props.month.toString(this.props.monthFormat)}
+              {this.props.month.toString("MM-yyyy")}
             </Text>
             {indicator}
           </View>
