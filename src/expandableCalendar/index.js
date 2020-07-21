@@ -466,7 +466,7 @@ class ExpandableCalendar extends Component {
     const themeObject = Object.assign(this.headerStyleOverride, theme);
 
     return (
-      <View style={[allowShadow && this.style.containerShadow, style]}>
+      <View style={[allowShadow && this.style.containerShadow, style, {position: 'absolute', zIndex: 1000}]}>
         <Animated.View 
           ref={e => {this.wrapper = e;}}
           style={{height: deltaY}} 
